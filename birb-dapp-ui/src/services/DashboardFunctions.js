@@ -1,7 +1,7 @@
 import Web3 from "web3";
 import config from "../config";
 import { toast } from "react-toastify";
-import { ArtTrack, ShopTwo } from "@material-ui/icons";
+//import { ArtTrack, ShopTwo } from "@material-ui/icons";
 
 var web3 = new Web3(
   new Web3.providers.HttpProvider(config.tokenContract.web3Endpoint)
